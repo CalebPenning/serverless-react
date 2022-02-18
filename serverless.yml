@@ -1,5 +1,5 @@
 ---
-service: serverless-react-boilerplate
+service: serverless-react-first
 frameworkVersion: "2"
 useDotenv: true
 variablesResolutionMode: 20210326
@@ -93,8 +93,8 @@ custom:
           - source: dist/
             headers:
               CacheControl: max-age=31104000 # 1 year
-            globs:
               - "**/*"
+            globs:
 
   serverless-offline:
     useChildProcesses: true
